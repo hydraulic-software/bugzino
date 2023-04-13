@@ -1,0 +1,1 @@
+A composable using Compose for Desktop that displays an `id: Int` and `title: String` in a card. The card should optionally have a rounded rectangle outline with a small drop shadow around the edge to make it clearly defined. It has a clean, modern look. Render the title in a bigger font and place the ID in light grey underneath it using a smaller font. 

@@ -1,0 +1,6 @@
+// The Java SecurityManager sandbox is not long for this world, but as of Java 20 it's still with us and still enforcing.
+// So we have to give our backend the ability to execute sendmail:
+
+grant principal org.postgresql.pljava.PLPrincipal$Unsandboxed * {
+    permission java.io.FilePermission "/usr/sbin/sendmail", "read,readlink,execute";
+};

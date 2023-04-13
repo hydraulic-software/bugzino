@@ -1,0 +1,3 @@
+.text-field, .text-area .content, .button {
+    -fx-padding: 15px;
+}
