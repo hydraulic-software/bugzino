@@ -13,6 +13,12 @@ This app demonstrates how to write and deploy a CRUD GUI app without using web t
 
 Web browsers lack many features forcing us to deal with a lot of incidental complexity that makes writing CRUD apps harder than necessary. By systematically solving the problems that push devs us into browsers, we can get a better developer and end user experience. This repo contains a demo app that can be iterated on to prove out the ideas.
 
+## Get the client
+
+[Download here](https://downloads.hydraulic.dev/bugzino/download.html)
+
+**Please note that the server is currently offline pending a move to a dedicated VPS, it will be brought back online sooner or later**.
+
 ## Design
 
 Bugzino implements two-tier design, in which a desktop app connects directly to a backend database using its native protocol (you could do the same thing from mobile). This has a variety of advantages:
